@@ -17,7 +17,7 @@ steps:
   displayName: 'dotnet build src/AnalyzerDotNet.sln $(buildConfiguration)'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Agent.BuildDirectory)\src\AnalyzerDotNet\bin\$(buildConfiguration)\'
+    SourceFolder: '$(Agent.BuildDirectory)'
     Contents: '**\*.nupkg'
     TargetFolder: '$(Build.ArtifactStagingDirectory)\package'
 - task: PublishBuildArtifacts@1
