@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+      <id>AnalyzerDotNet</id>
+      <version>1.0.0</version>
+      <description>.NET standard tooling build that leverages Roslyn analyzers, rulesets and additional configuration to be used for Code Analysis.</description>
+      <authors>Baskaran Govindaras</authors>
+      <owners>Baskaran Govindaras</owners>
+      <dependencies>
+        <dependency id="Stylecop.Analyzers" version="1.1.118" />
+        <dependency id="SonarAnalyzer.CSharp" version="8.6.0.16497" />
+        <dependency id="Microsoft.CodeAnalysis.Analyzers" version="3.0.0" />
+      </dependencies>
+    </metadata>
+    <files>
+      <file src="AnalyzerDotNet.props" target="build" />
+      <file src="AnalyzerDotNet.targets" target="build" />
+      <file src="AnalyzerDotNet.ruleset"/>
+      <file src="stylecop.json"/>
+    </files>
+</package>

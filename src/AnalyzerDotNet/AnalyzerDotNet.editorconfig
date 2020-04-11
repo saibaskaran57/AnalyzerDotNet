@@ -1,0 +1,76 @@
+# NOTE: Requires **VS2019 16.3** or later
+
+# Rules for StyleCop.Analyzers
+# Description: Code analysis rules for StyleCop.Analyzers.csproj.
+
+# Code files
+[*.{cs,vb}]
+
+
+dotnet_diagnostic.CA1008.severity = warning
+
+dotnet_diagnostic.CA1305.severity = warning
+
+dotnet_diagnostic.CA1307.severity = warning
+
+dotnet_diagnostic.CA1308.severity = warning
+
+dotnet_diagnostic.CA1309.severity = warning
+
+dotnet_diagnostic.CA1500.severity = warning
+
+dotnet_diagnostic.CA1502.severity = warning
+
+dotnet_diagnostic.CA1506.severity = warning
+
+dotnet_diagnostic.CA1701.severity = warning
+
+dotnet_diagnostic.CA1704.severity = warning
+
+dotnet_diagnostic.CA1707.severity = warning
+
+dotnet_diagnostic.CA1708.severity = warning
+
+dotnet_diagnostic.CA1800.severity = warning
+
+dotnet_diagnostic.CA1801.severity = warning
+
+dotnet_diagnostic.CA1802.severity = warning
+
+dotnet_diagnostic.CA1804.severity = warning
+
+dotnet_diagnostic.CA1806.severity = warning
+
+dotnet_diagnostic.CA1811.severity = warning
+
+dotnet_diagnostic.CA1822.severity = warning
+
+dotnet_diagnostic.CA1823.severity = warning
+
+dotnet_diagnostic.CA2200.severity = warning
+
+dotnet_diagnostic.CA2208.severity = warning
+
+dotnet_diagnostic.CA2213.severity = warning
+
+dotnet_diagnostic.CA2215.severity = warning
+
+dotnet_diagnostic.CA2227.severity = warning
+
+dotnet_diagnostic.IDE0003.severity = none
+
+dotnet_diagnostic.IDE0055.severity = warning
+
+dotnet_diagnostic.RS1022.severity = none
+
+dotnet_diagnostic.S3216.severity = warning
+
+dotnet_diagnostic.SA1305.severity = warning
+
+dotnet_diagnostic.SA1412.severity = warning
+
+dotnet_diagnostic.SA1600.severity = none
+
+dotnet_diagnostic.SA1609.severity = warning
+
+dotnet_diagnostic.SA1633.severity = none

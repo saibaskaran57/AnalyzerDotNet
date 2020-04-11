@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyzerDotNet", "AnalyzerDotNet\AnalyzerDotNet.csproj", "{C64E60C6-5466-4479-87EF-7CD08B4A7024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64E60C6-5466-4479-87EF-7CD08B4A7024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64E60C6-5466-4479-87EF-7CD08B4A7024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64E60C6-5466-4479-87EF-7CD08B4A7024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64E60C6-5466-4479-87EF-7CD08B4A7024}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDF89774-0293-4E08-B541-679CDF41CA9B}
+	EndGlobalSection
+EndGlobal

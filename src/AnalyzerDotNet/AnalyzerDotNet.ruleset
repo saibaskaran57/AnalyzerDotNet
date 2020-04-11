@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules for StyleCop.Analyzers" Description="Code analysis rules for StyleCop.Analyzers.csproj." ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1008" Action="Warning" />
+    <Rule Id="CA1305" Action="Warning" />
+    <Rule Id="CA1307" Action="Warning" />
+    <Rule Id="CA1308" Action="Warning" />
+    <Rule Id="CA1309" Action="Warning" />
+    <Rule Id="CA1500" Action="Warning" />
+    <Rule Id="CA1502" Action="Warning" />
+    <Rule Id="CA1506" Action="Warning" />
+    <Rule Id="CA1701" Action="Warning" />
+    <Rule Id="CA1704" Action="Warning" />
+    <Rule Id="CA1707" Action="Warning" />
+    <Rule Id="CA1708" Action="Warning" />
+    <Rule Id="CA1800" Action="Warning" />
+    <Rule Id="CA1801" Action="Warning" />
+    <Rule Id="CA1802" Action="Warning" />
+    <Rule Id="CA1804" Action="Warning" />
+    <Rule Id="CA1806" Action="Warning" />
+    <Rule Id="CA1811" Action="Warning" />
+    <Rule Id="CA1822" Action="Warning" />
+    <Rule Id="CA1823" Action="Warning" />
+    <Rule Id="CA2200" Action="Warning" />
+    <Rule Id="CA2208" Action="Warning" />
+    <Rule Id="CA2213" Action="Warning" />
+    <Rule Id="CA2215" Action="Warning" />
+    <Rule Id="CA2227" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Analyzers" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Analyzers">
+    <Rule Id="RS1022" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.CodeStyle" RuleNamespace="Microsoft.CodeAnalysis.CSharp.CodeStyle">
+    <Rule Id="IDE0055" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+    <Rule Id="IDE0003" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="SonarAnalyzer.CSharp" RuleNamespace="SonarAnalyzer.CSharp">
+    <Rule Id="S3216" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1305" Action="Warning" />
+    <Rule Id="SA1412" Action="Warning" />
+    <Rule Id="SA1600" Action="None" />
+    <Rule Id="SA1609" Action="Warning" />
+    <Rule Id="SA1633" Action="None" />
+  </Rules>
+</RuleSet>
