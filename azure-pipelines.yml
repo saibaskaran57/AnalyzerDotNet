@@ -19,7 +19,8 @@ steps:
   inputs:
     SourceFolder: '$(Agent.BuildDirectory)'
     Contents: '**\*.nupkg'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)\package'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    flattenFolders: true
 - task: PublishBuildArtifacts@1
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
