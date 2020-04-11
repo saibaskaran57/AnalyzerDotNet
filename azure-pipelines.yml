@@ -13,5 +13,14 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build src/AnalyzerDotNet.sln --configuration $(buildConfiguration)
+- script: dotnet build src/AnalyzerDotNet.sln --configuration 
   displayName: 'dotnet build src/AnalyzerDotNet.sln $(buildConfiguration)'
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Agent.BuildDirectory)\src\AnalyzerDotNet\bin\$(buildConfiguration)\'
+    Contents: '**\*.nupkg'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)\package'
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    artifactName: 'AnalyzerDotNet'
