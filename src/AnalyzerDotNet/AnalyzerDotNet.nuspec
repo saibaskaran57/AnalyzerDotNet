@@ -2,14 +2,24 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
       <id>AnalyzerDotNet</id>
-      <version>1.0.0</version>
+      <version>1.0.2</version>
+      <title>AnalyzerDotNet</title>
       <description>.NET standard tooling build that leverages Roslyn analyzers, rulesets and additional configuration to be used for Code Analysis.</description>
       <authors>Baskaran Govindaras</authors>
       <owners>Baskaran Govindaras</owners>
+      <projectUrl>https://github.com/saibaskaran57/AnalyzerDotNet</projectUrl>
+      <licenseUrl>https://github.com/saibaskaran57/AnalyzerDotNet/blob/master/LICENSE</licenseUrl>
+      <releaseNotes>https://github.com/saibaskaran57/AnalyzerDotNet/blob/master/README.md</releaseNotes>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <copyright>Copyright 2020</copyright>
+      <tags>StyleCop.Analyzer SonarQube.Analyzer CodeQuality CodeAnalysis StyleCop FxCop</tags>
       <dependencies>
         <dependency id="Stylecop.Analyzers" version="1.1.118" />
         <dependency id="SonarAnalyzer.CSharp" version="8.6.0.16497" />
+        <dependency id="Microsoft.CodeAnalysis.FxCopAnalyzers" version="2.9.8" />
         <dependency id="Microsoft.CodeAnalysis.Analyzers" version="3.0.0" />
+        <dependency id="DotNetAnalyzers.DocumentationAnalyzers.Unstable" version="1.0.0.59" />
+        <dependency id="Text.Analyzers" version="2.6.4" />
       </dependencies>
     </metadata>
     <files>
