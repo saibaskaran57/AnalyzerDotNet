@@ -4,9 +4,19 @@
 
 .NET standard tooling build that leverages Roslyn analyzers, rulesets and additional configuration to be used for Code Analysis.
 
+## Objective
+
+AnalyzerDotNet was designed to govern rules & standardize coding development as most of the ruleset may/may not be applicable. The project aims to add/remove rulesets from different providers to adjust based on agreed software development standards.
+
 ## Using AnalyzerDotNet
 
 AnalyzerDotNet is recommended to be used on projects where you want to enforce code analysis & quality rules.
+
+AnalyzerDotNet consumes the best practices from different rulesets(e.g. StyleCop, FxCop, SonarQube, etc) and here are the references:
+1) [StyleCop Analyzer](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
+2) [SonarQube Analyzer](https://rules.sonarsource.com/csharp)
+3) [FxCop Analyzer](https://github.com/dotnet/roslyn-analyzers/blob/master/src/Microsoft.CodeAnalysis.FxCopAnalyzers/Microsoft.CodeAnalysis.FxCopAnalyzers.md)
+4) [Documentation Analyzer](https://github.com/DotNetAnalyzers/DocumentationAnalyzers/blob/master/DOCUMENTATION.md)
 
 ## Installation
 
