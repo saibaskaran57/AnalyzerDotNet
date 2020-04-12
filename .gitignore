@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/AnalyzerDotNet/v16/TestStore/0
+/src/AnalyzerDotNet/obj
+/src/.vs/AnalyzerDotNet/v16
+/src/AnalyzerDotNet/bin/Debug/netstandard2.0
