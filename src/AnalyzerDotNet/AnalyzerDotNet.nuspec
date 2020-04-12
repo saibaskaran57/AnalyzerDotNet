@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
       <id>AnalyzerDotNet</id>
-      <version>1.0.2</version>
+      <version>1.0.3</version>
       <title>AnalyzerDotNet</title>
       <description>.NET standard tooling build that leverages Roslyn analyzers, rulesets and additional configuration to be used for Code Analysis.</description>
       <authors>Baskaran Govindaras</authors>
       <owners>Baskaran Govindaras</owners>
       <projectUrl>https://github.com/saibaskaran57/AnalyzerDotNet</projectUrl>
-      <licenseUrl>https://github.com/saibaskaran57/AnalyzerDotNet/blob/master/LICENSE</licenseUrl>
+      <license type="expression">MIT</license>
       <releaseNotes>https://github.com/saibaskaran57/AnalyzerDotNet/blob/master/README.md</releaseNotes>
       <requireLicenseAcceptance>false</requireLicenseAcceptance>
       <copyright>Copyright 2020</copyright>
